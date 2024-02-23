@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>php-badwords</title>
-</head>
-<body>
-    <div class="container mt-5">
-        <form action="index.php" method="get">
-            <input type="text" name="search" placeholder="censura parola">
-            <button> invia </button>
-        </form>
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML</title>
+  </head>
+  <body>
+    <form action="./result.php" method="GET">
+      <label for="paragraph">Paragrafo</label>
+      <input type="text" name="paragraph" id="paragraph" />
+      <label for="toCensored">Parola da censurare</label>
+
+      <input type="text" name="toCensored" id="toCensored" />
+      <button type="submit">INVIA</button>
+    </form>
+  </body>
 </html>

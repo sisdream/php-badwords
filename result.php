@@ -1,6 +1,20 @@
-<!-- php -->
-<?php
-    // php variable
-    $lorem = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quis, impedit, ipsa officiis atque placeat quod veritatis, at tenetur quibusdam quas ipsam fuga odit harum saepe eius nisi iusto veniam.';
-        
+<?php 
+
+$paragraph = $_GET["paragraph"];
+$tocensored = $_GET["toCensored"];
+
+$censored = str_replace($tocensored, "***", $paragraph);
+echo $censored;
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP</title>
+</head>
+<body>
+    
+</body>
+</html>
